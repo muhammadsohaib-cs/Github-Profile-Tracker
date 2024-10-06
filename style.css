@@ -97,14 +97,16 @@ input:focus {
 }
 
 /* Mobile styles */
-@media only screen and (max-width: 340px) {
+@media only screen and (max-width: 480px) {
   input {
     width: 100%; /* Take full screen width on mobile */
     padding: 0.4rem; /* Reduce padding on mobile */
   }
   .card {
     padding: 1rem; /* Reduce padding on mobile */
-    height: 20%;
+    height: 40%;
+    margin-left: 20px;
+    margin-right: 20px ;
   }
   .avatar {
     height: 100px;
@@ -122,13 +124,15 @@ input:focus {
 }
 
 /* Tablet styles */
-@media only screen and (min-width: 481px) and (max-width: 768px) {
+@media only screen and (min-width: 481px) and (max-width: 600px) {
   input {
-    width: 80%; /* Take 80% of screen width on tablet */
+    width: 100%; /* Take 80% of screen width on tablet */
     padding: 0.75rem; /* Adjust padding on tablet */
   }
   .card {
     padding: 2.5rem; /* Adjust padding on tablet */
+    margin-left: 20px;
+    margin-right: 20px;
   }
   .avatar {
     height: 120px;
@@ -146,11 +150,12 @@ input:focus {
 }
 
 /* Desktop styles */
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 535px) {
   input {
     width: 400px; /* Take 400px width on desktop */
     padding: 1rem; /* Adjust padding on desktop */
   }
   .card {
     padding: 3rem; /* Adjust padding on desktop */
+    height: 60%;
   } }
